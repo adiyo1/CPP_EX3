@@ -34,8 +34,7 @@ After building the project, you can run the game by executing the generated bina
     ```bash
     make test
     ```
-2.
-1. 
+2. 
     ```bash
     ./test
     ```
