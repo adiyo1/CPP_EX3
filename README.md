@@ -14,28 +14,31 @@ This project is a C++ implementation of the popular board game, Settlers of Cata
 
 ## Getting Started
 
+### Prerequisites
+
+- A C++ compiler (e.g., g++, clang)
+- CMake (optional, but recommended for building the project)
+
 ### Building the Project
+
+If you are using CMake, follow these steps:
 
 1. **Build the project:**
     ```bash
     make
     ```
+2. **Running the Game:**
+    ```bash
+    ./catan
+    ```
 
-### Running the Game
+### Running the Tests
 
-After building the project, you can run the game by executing the generated binary. Assuming the binary is named `catan`:
-
-```bash
-./catan
-
-## Getting tests
-
-1. 
+After building the project, you can run the 'Test':
+1. **Build the project:**
     ```bash
     make test
     ```
-2. 
+2. **Running the Test:**
     ```bash
     ./test
-    ```
-
